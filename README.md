@@ -31,8 +31,4 @@ Open the index.html file in your web browser to start using the application.
 
 Contributing
 
-<<<<<<< HEAD
 Contributions to PixiTools are welcome! If you have suggestions for improvements or new features, feel free to fork this repository, make changes, and submit a pull request.
-=======
-Contributions to PixiTools are welcome! If you have suggestions for improvements or new features, feel free to fork this repository, make changes, and submit a pull request.
->>>>>>> 4df483c5da3637985e91aa52ac32147685834aad
