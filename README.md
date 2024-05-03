@@ -32,3 +32,6 @@ Open the index.html file in your web browser to start using the application.
 Contributing
 
 Contributions to PixiTools are welcome! If you have suggestions for improvements or new features, feel free to fork this repository, make changes, and submit a pull request.
+
+![Preview](img\preview.png)
+![Logo](img\logopix.png)
