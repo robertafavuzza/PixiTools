@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(to right, #fff, #fbb4b7); /* Sfondo a gradiente bianco e rosa */
+    font-family: 'Brush Script MT', cursive;
+}
+
+
+
+.game-title {
+    text-align: center; 
+    font-size: 2em; 
+    font-weight: bold;
+    color: #fbb4b7; 
+    margin-top: 20px;
+    transition: color 0.3s; 
+    position: relative; 
+}
+
+.game-title:hover {
+    color: #ff6699; 
+    animation: border-rotate 1s infinite; 
+}
+
+
+.toolbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.tool {
+    border: none;
+    background: white; 
+    border-radius: 5px;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.tool img {
+    width: 24px; 
+    height: 24px;
+}
+
+.tool:hover {
+    transform: scale(1.1); 
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.canvas {
+    border: 2px solid #fbb4b7; 
+    display: grid;
+    grid-template-columns: repeat(64, 1fr);
+    grid-template-rows: repeat(64, 1fr);
+    width: 512px;
+    height: 512px;
+}
+
+.canvas .grid-cell {
+    background: white;
+    border: 1px solid transparent; 
+}
+
+.canvas .grid-cell.show-grid {
+    border: 1px solid #fbb4b7; 
+}
+.popular-colors {
+    display: flex; 
+    justify-content: center; 
+    gap: 10px; 
+    padding: 10px;
+}
+
+.color-box {
+    width: 30px; 
+    height: 30px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+#colorPicker {
+    border: none;
+    border-radius: 5px; 
+    background: #fbb4b7; 
+    padding: 5px;
+    transition: transform 0.3s; 
+    cursor: pointer; 
+}
+
+#colorPicker:hover {
+    transform: scale(1.1);
+}
+
+#pencilSize {
+    border: none;
+    border-radius: 5px; 
+    background: #fbb4b7; 
+    padding: 5px;
+    width: 40px; 
+    text-align: center; 
+    transition: transform 0.3s;
+}
+
+#pencilSize:hover {
+    transform: scale(1.1);
+}
+
+.author-signature {
+    text-align: center; 
+    font-size: 1em; 
+    color: #ff6699; 
+    padding: 10px; 
+    margin-top: 20px; 
+    border-top: 1px solid #fbb4b7;
+    background: white;
+}
+
+.author-signature a {
+    text-decoration: none; 
+    color: #ff6699;
+    transition: color 0.3s; 
+}
+
+.author-signature a:hover {
+    color: #ff3366; 
+}
+

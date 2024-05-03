@@ -1,0 +1,38 @@
+body {
+    background: linear-gradient(to right, #fff, #fbb4b7); 
+    font-family: 'Brush Script MT', cursive;
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+.welcome-title {
+    font-size: 3em; 
+    color: #ff6699; 
+    cursor: pointer; 
+    position: relative; 
+    padding: 10px; 
+    animation: border-rotate 2s linear infinite; 
+    
+}
+
+
+.welcome-title:hover {
+    transform: scale(1.1); 
+    
+}
+
+
+@keyframes border-rotate {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0.3;
+    }
+  }
+    
